@@ -1,0 +1,34 @@
+# Configuration de base
+title: Mon Site Jekyll de mon repository 
+description: Un exemple de site Jekyll
+author: Mostafa Laabidi
+
+# Configuration de l'URL de base
+baseurl: "" # Si votre site est à la racine du domaine
+# baseurl: "/mon-site" # Si votre site est dans un sous-dossier
+
+# Configuration du thème
+theme: minima
+
+# Configuration des plugins (facultatif)
+plugins:
+  - jekyll-feed
+
+# Configuration du format de date
+date_format: "%d/%m/%Y"
+
+# Configuration des paramètres de navigation
+# Exemple de navigation principale
+nav:
+  - text: Accueil
+    url: /
+  - text: À Propos
+    url: /about.html
+  - text: Contact
+    url: /contact.html
+
+# Configuration des paramètres de pagination (facultatif)
+paginate: 5
+
+# Configuration des paramètres de langue (facultatif)
+#locale: "fr-FR"
